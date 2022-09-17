@@ -27,9 +27,9 @@ Tailblog requires PHP 5.3 or greater
 
 ### Screenshots
 -------------
-![Home](https://cdn.jsdelivr.net/gh/Ajinkgupta/Tailblog@main/demo/screenshots/home.png)
-![Login](https://cdn.jsdelivr.net/gh/Ajinkgupta/Tailblog@main/demo/screenshots/login.png)
-![Register](https://cdn.jsdelivr.net/gh/Ajinkgupta/Tailblog@main/demo/screenshots/register.png)
+![Home](https://cdn.jsdelivr.net/gh/Ajinkgupta/Tailblog@main/demo/screenshots/tailblog-unaux-com-1024x768desktop-e747f3.jpg)
+![Login](https://cdn.jsdelivr.net/gh/Ajinkgupta/Tailblog@main/demo/screenshots/tailblog-unaux-com-1024x768desktop-ead604.jpg)
+![Blog](https://cdn.jsdelivr.net/gh/Ajinkgupta/Tailblog@main/demo/screenshots/tailblog-unaux-com-1024x768desktop-c11d72.jpg)
 
 Contributors
 ----------
