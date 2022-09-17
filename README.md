@@ -8,7 +8,7 @@ Demo
 
 ### Features
 ---------
-- Admin Panel (upcoming)
+- Admin Panel (added)
 - WYSIWYG editor 
 - Categorization with category 
 - Static Pages (e.g. Contact Page, About Page)
