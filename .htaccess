@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteRule ^blog/([^/]*)$ /blog/single_post.php?post-slug=$1 [L]
+RewriteRule ^([^/]*)/topic$ /blog/filtered_posts.php?topic=$1 [L]
