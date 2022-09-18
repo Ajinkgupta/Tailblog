@@ -2,9 +2,6 @@
 **Tailblog** is an open source   Blogging Platform  written in PHP.  
 You do not need to use a VPS to run Tailblog , shared hosting or even free hosting should work as long as the host supports at least PHP 5.3.
 
-Demo
-----
-``` demo soon ```
 
 ### Features
 ---------
@@ -20,6 +17,8 @@ Demo
 - Modern Responsive Design
 - User Roles
 - Post Draft 
+- contact form (added)
+- pretty url htaccess (added)
 
 ### Requirements
 ------------
