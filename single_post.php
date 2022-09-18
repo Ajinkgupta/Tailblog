@@ -1,11 +1,13 @@
 <?php  include('config.php'); ?>
-<?php  include('includes/public_functions.php'); ?>
+<?php  include('includes/public_functions.php'); ?> 
+<?php  include(ROOT_PATH . '/admin/includes/post_functions.php'); ?>
 <?php 
 	if (isset($_GET['post-slug'])) {
 		$post = getPost($_GET['post-slug']);
 	}
 	$topics = getAllTopics();
 ?>
+<?php $posts = getAllPosts(); ?>
 <?php include('includes/head_section.php'); ?>
 <title> <?php echo $post['title'] ?> | TailBlog</title>
 </head>
@@ -51,12 +53,13 @@
       
       <?php if (isset($post['topic']['name'])): ?>
 			<a 
-				href="<?php echo BASE_URL . 'filtered_posts.php?topic=' . $post['topic']['id'] ?>"
+				href="<?php echo BASE_URL . $post['topic']['id'] .'/topic' ?>"
 				class="btn category">
 				 <span class="text-xs font-medium text-blue-600 uppercase">
         <?php echo $post['topic']['name'] ?>
         </span>
 			</a>
+      
 		<?php endif ?>
       
       
