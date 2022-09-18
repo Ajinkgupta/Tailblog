@@ -41,7 +41,7 @@
       
       <?php if (isset($post['topic']['name'])): ?>
 			<a 
-				href="<?php echo BASE_URL . 'filtered_posts.php?topic=' . $post['topic']['id'] ?>"
+      href="<?php echo BASE_URL . $post['topic']['id'] .'/topic' ?>"
 				class="btn category">
 				 <span class="text-xs font-medium text-blue-600 uppercase">
         <?php echo $post['topic']['name'] ?>
@@ -123,7 +123,7 @@
       <div class="flex flex-wrap items-center flex-1 px-4 py-1 text-center mx-auto">
       
       
-      <a href="single_post.php?post-slug=<?php echo $post['slug']; ?>" class="hover:underline">
+      <a href="blog/<?php echo $post['slug']; ?>" class="hover:underline">
 			 
 			 <h2 class="text-2xl font-bold tracking-normal text-gray-800"><?php echo $post['title'] ?>  </h2>
 	  </div>
@@ -138,13 +138,11 @@
               alt="Avatar"
             />
             <div class="flex flex-col mx-2">
-              <a href="" class="font-semibold text-gray-700 hover:underline">
-                Ajink Gupta
-              </a>
+             
               <span class="mx-1 text-xs text-gray-600"><?php echo date("F j, Y ", strtotime($post["created_at"])); ?></span>
             </div>
           </div>
-      <a  href="single_post.php?post-slug=<?php echo $post['slug']; ?>">
+      <a  href="blog/<?php echo $post['slug']; ?>">
       
       <button
         type="button"
