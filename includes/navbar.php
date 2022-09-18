@@ -28,7 +28,7 @@
 					<?php endforeach ?>
      
       <li class="mx-4 my-6 md:my-0">
-        <a href="#" class="text-xl hover:text-cyan-500 duration-500">CONTACT</a>
+        <a href="./contact.php" class="text-xl hover:text-cyan-500 duration-500">CONTACT</a>
       </li>
      
 
