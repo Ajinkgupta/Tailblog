@@ -30,7 +30,7 @@
 
 
 
-<section class="w-4/5 m-auto"> 
+<section class="w-4/5 m-auto break-all"> 
 
 				<div
     class="transition-all duration-150 flex w-full px-4 py-6 "
